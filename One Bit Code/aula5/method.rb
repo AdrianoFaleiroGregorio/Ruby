@@ -1,5 +1,20 @@
-def talk
-    puts 'Olá, como você está?'
+def talk(first_name, last_name)
+    puts "Olá #{first_name} #{last_name}, como você está?"
    end
    
-   talk
+   first_name = 'Leonardo'
+   last_name = 'Scorza'
+   
+   talk(first_name, last_name)
+
+
+# Segundo exemplo
+
+   def signal(color = 'vermelho')
+    puts "O sinal está #{color}"
+   end
+   
+   signal 
+   
+   color = 'verde'
+   signal(color)
