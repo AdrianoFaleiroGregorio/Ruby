@@ -11,7 +11,7 @@ def my_os
 
  elsif OS.mac?
 
-   "Osx"
+   "Mac"
 
  else
 
