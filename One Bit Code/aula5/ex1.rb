@@ -1,6 +1,10 @@
-def resultado (numero, potencia)
+#Crie um programa que possua um método que resolva a potência dado
+#um número vase e seu expoente. Estes dois valores devem ser
+#informados pelo usuário.
 
-    return numero**potencia
+def resultado (potencia, expoente)
+
+    return potencia**expoente
 
 end
 
