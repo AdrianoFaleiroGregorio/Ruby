@@ -1,14 +1,13 @@
-p 'Digite um número e uma potência.'
-    numero = gets.chomp.to_i
-    potencia = gets.chomp.to_i
+def resultado (numero, potencia)
 
-def talk (numero, potencia)
-
-    result = numero**potencia
-    p "O resultado é #{result}!"
+    return numero**potencia
 
 end
 
+p 'Digite um número e uma potência.'
+    numero1 = gets.chomp.to_i
+    potencia1 = gets.chomp.to_i
 
-talk
+result = resultado(numero1, potencia1)
 
+p "O resultado é #{result}!"
