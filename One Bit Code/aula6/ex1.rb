@@ -22,3 +22,4 @@
 # No final do programa execute os métodos competir e correr em
 # objetos do tipo JogadorDeFutebol e Maratonista.
 
+Colocar as mudanças no poly antes de iniciar esse
