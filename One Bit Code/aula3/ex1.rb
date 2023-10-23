@@ -1,5 +1,8 @@
-# https://www.youtube.com/watch?v=YLI2Ot2Mr34&list=PLdDT8if5attEOcQGPHLNIfnSFiJHhGDOZ&index=3
-# Link para aula 3 com a atividade
+# Utilizando as estruturas de iteração e condição, crie uma
+# calculadora que ofereça ao usuário a opção de Multiplicar,
+# Dividir, Adicionar ou Subtrair dois números. Não se esqueça de
+# também permitir que o usuário feche o programa.
+
 
 operation = ''
 
