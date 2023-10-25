@@ -36,14 +36,12 @@ end
 
 class Maratonista < Esportista
     def self.correr
-        puts 'Percorrendo o circuito'
+        puts 'Percorrendo o circuito.'
     end
 end
 
+esportes = [JogadorDeFutebol, Maratonista]
 
-
-esportes = [Esportista, JogadorDeFutebol, Maratonista]
-  
 esportes.each do |esportes1|
     esportes1.competição
     esportes1.correr
