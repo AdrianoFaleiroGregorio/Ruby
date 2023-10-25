@@ -22,4 +22,17 @@
 # No final do programa execute os métodos competir e correr em
 # objetos do tipo JogadorDeFutebol e Maratonista.
 
-Realizar as mudanças no poly antes de iniciar esse
+class Esportista
+    puts 'Participando de uma competição.'
+end
+
+class JogadorDeFutebol < Esportista
+    puts 'Correndo atrás da bola.'
+end
+
+class JogadorDeFutebol < Esportista
+    puts 'Correndo atrás da bola.'
+end
+
+
+
