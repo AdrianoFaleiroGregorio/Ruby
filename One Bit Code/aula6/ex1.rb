@@ -23,16 +23,28 @@
 # objetos do tipo JogadorDeFutebol e Maratonista.
 
 class Esportista
-    puts 'Participando de uma competição.'
+    def self.competição
+        puts 'Participando de uma competição.'
+    end
 end
 
 class JogadorDeFutebol < Esportista
-    puts 'Correndo atrás da bola.'
+    def self.correr
+        puts 'Correndo atrás da bola.'
+    end
 end
 
-class JogadorDeFutebol < Esportista
-    puts 'Correndo atrás da bola.'
+class Maratonista < Esportista
+    def self.correr
+        puts 'Percorrendo o circuito'
+    end
 end
 
 
 
+esportes = [Esportista, JogadorDeFutebol, Maratonista]
+  
+esportes.each do |esportes1|
+    esportes1.competição
+    esportes1.correr
+end
