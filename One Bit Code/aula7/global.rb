@@ -1,3 +1,7 @@
+# Seu uso é FORTEMENTE DESENCORAJADO pois além de ser visível em
+# qualquer lugar do código, também pode ser alterada em inúmeros
+# locais ocasionando dificuldades no rastreamento de bugs. 
+
 Exemplo:
 class Bar
  def foo
