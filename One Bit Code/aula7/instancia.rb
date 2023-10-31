@@ -8,7 +8,7 @@ class User
     def hello
       puts "Seja bem vindo, #{@name}!"
     end
-   end
+  end
    
-   user = User.new
-   user.add('João')
+  user = User.new
+  user.add('João')
