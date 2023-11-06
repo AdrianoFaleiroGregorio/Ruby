@@ -4,7 +4,7 @@ class User
     puts "User adicionado"
     hello
   end
-   
+
   def hello
     puts "Seja bem vindo, #{@name}!"
   end
