@@ -1,24 +1,24 @@
 class Animal 
- def pular
-   puts 'Toing! tóim! bóim! póim!'
- end
+  def pular
+    puts 'Toing! tóim! bóim! póim!'
+  end
 
- def dormir
-   puts 'ZzZzzz!'
- end
+  def dormir
+    puts 'ZzZzzz!'
+  end
 end
 
 class Cachorro < Animal
- def latir
-   puts 'Au Au'
- end
+  def latir
+    puts 'Au Au'
+  end
 end
 
 class Gato < Animal
-    def meow
-      puts 'meow meow'
-    end
-   end
+  def meow
+    puts 'meow meow'
+  end
+end
 
 cachorro = Cachorro.new
 cachorro.pular
