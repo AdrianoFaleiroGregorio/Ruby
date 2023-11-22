@@ -4,17 +4,17 @@
 
 Exemplo:
 class Bar
- def foo
-   $global = 0
-   puts $global
- end
+  def foo
+    $global = 0
+    puts $global
+  end
 end
 
 class Baz
- def qux
-   $global += 1
-   puts $global
- end
+  def qux
+    $global += 1
+    puts $global
+  end
 end
 
 bar = Bar.new

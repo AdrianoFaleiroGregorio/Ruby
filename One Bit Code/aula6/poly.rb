@@ -42,7 +42,7 @@ class Instrumento
    
 
   instrumentos = [Lapis.new, Caneta.new]
-  # Chamamos o método escrever pra qualquer instrumento utilizando
+  # Chamamos o método escrever para qualquer instrumento utilizando
   # 'Instrumento.instance_method(:escrever).bind(instrumento).call'
   # caso chame apenas 'instrumento.escrever', ele não irá chamar o
   # método pai.
