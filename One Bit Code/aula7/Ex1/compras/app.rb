@@ -2,12 +2,11 @@ require_relative 'produto'
 require_relative 'mercado'
 
 produto = Produto.new
-produto.name
 
 puts "Qual produto deseja comprar hoje?"
-name = gets.chomp
+produto.name = gets.chomp
 
-produto.price
+puts "Qual o valor?"
+produto.price = gets.chomp.to_i
 
-mercado = Mercado.new(name, price)
-mercado.comprar
+Mercado.new(produto.name, produto.price).comprar

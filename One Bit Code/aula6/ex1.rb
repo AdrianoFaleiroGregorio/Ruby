@@ -42,7 +42,7 @@ end
 
 esportes = [JogadorDeFutebol, Maratonista]
 
-esportes.each do |esportes1|
-    esportes1.competição
-    esportes1.correr
+esportes.each do |esportes|
+    esportes.competição
+    esportes.correr
 end
