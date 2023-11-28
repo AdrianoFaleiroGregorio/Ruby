@@ -33,3 +33,19 @@ end
 numbers = [1, 2, 3, 4]
 
 my_lambda.call(numbers)
+
+#Com o lambda não é necessário utilizar '&block' e após ser
+#ser declarado, basta chamar 'first_lambda.call'. Vareia de acordo
+#com a posição dele.
+#Lambda é um parâmetro normal.
+
+def foo(first_lambda, second_lambda)
+    first_lambda.call
+    second_lambda.call
+end
+   
+first_lambda = lambda { puts "my first lambda"}
+second_lambda = lambda { puts "my second lambda"}
+   
+foo(first_lambda, second_lambda)
+
