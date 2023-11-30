@@ -17,7 +17,7 @@ module Pernas
     end
     
     def chute_lateral
-      imprimir 'Chute Lateral'
+        imprimir 'Chute Lateral'
     end
 end
 
@@ -33,7 +33,7 @@ module Bracos
     end
     
     def gancho
-      imprimir 'Gancho'
+        imprimir 'Gancho'
     end
 end
 
